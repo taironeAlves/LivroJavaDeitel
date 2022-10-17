@@ -21,7 +21,7 @@ public class Addition {
         // System.out.printf("Soma e %d ", sum);
 
         int m = (2*5*5)+(3*5) +7;
-    
+    int t;
         System.out.println(m);
 
 
