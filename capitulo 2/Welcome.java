@@ -1,15 +1,7 @@
-// programa que imprime texto
-
-public class Welcome 
-{
-	// Método main inicia a execução do aplicativo java
-	/**
-	 * @param args
-	 */
-	
+// Mostra texto no terminal
+public class Welcome {
 	public static void main(String[] args) {
-		System.out.println("Bem vindo ao curso de Java");
-	}	
-	
+		System.out.printf("%s%n%s%n", "Bem vindo", "a Programação Java");
+	}
 
 }
