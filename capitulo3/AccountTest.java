@@ -35,5 +35,13 @@ public class AccountTest {
       System.out.printf("%s balance: $%.2f %n", account1.getName(), account1.getBalance());
       System.out.printf("%s balance: $%.2f %n", account2.getName(), account2.getBalance());
 
+      // Saque conta 1
+      System.out.print("Enter withDraw: ");
+      double withDraw = input.nextDouble();
+
+      account1.withDraw(withDraw);
+      System.out.printf("%s balance: $%.2f %n", account1.getName(), account1.getBalance());
+
+
    }
 }
