@@ -12,6 +12,14 @@ public class Exercicio313 {
 
     }
 
+    public double reauste(double aumento) {
+        double salario = getSalario();
+        Double novoSalario = salario + (salario * (aumento / 100));
+        setSalario(novoSalario);
+
+        return novoSalario;
+    }
+
     public String getNome() {
         return this.nome;
     }
