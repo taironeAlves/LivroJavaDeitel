@@ -13,7 +13,7 @@ public class Exercicio228 {
         //area
         double area = Math.PI *(raio * raio);
 
-        System.out.printf("O raio e: %d%n", raio);
+        System.out.printf("O raio é: %d%n", raio);
         System.out.printf("O diametro e: %d%n", diametro);
         System.out.printf("O circunferecia e: %f%n", circunferencia);
         System.out.printf("A area e: %f%n", area);
