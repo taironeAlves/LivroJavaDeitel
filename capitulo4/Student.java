@@ -38,4 +38,28 @@ public class Student {
             }
         }
     }
+
+    // recupera a média de Student
+    public double getAverange() {
+        return average;
+    }
+
+    // determia e retorna a letra da nota de Student
+    public String getLetterGrade() {
+        String letterGrade = "";
+
+        if (average >= 90.0)
+            letterGrade = "A";
+        else if (average >= 80.0)
+            letterGrade = "B";
+        else if (average >= 70.0)
+            letterGrade = "C";
+        else if (average >= 60.0)
+            letterGrade = "D";
+        else
+            letterGrade = "F";
+
+        return letterGrade;
+
+    }
 }
