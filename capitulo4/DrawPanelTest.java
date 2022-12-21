@@ -11,7 +11,11 @@ public class DrawPanelTest {
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         application.add(panel);//adiciona o painel ao frame()
+<<<<<<< HEAD
         application.setSize(1000,1000); //configura o tamnaho do frame(quadro de fotos)
+=======
+        application.setSize(1000,1000); //configura o tamnaho do frame(janela)
+>>>>>>> parent of 1ee5e34 (211222_1735)
         application.setVisible(true);//torna o frame visivel.
     }
 }
