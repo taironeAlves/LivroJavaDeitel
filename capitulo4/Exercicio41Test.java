@@ -1,8 +1,8 @@
 import javax.swing.JFrame;
-public class DrawPanelTest {
+public class Exercicio41Test {
     public static void main(String[] args) {
         //Cria um painel que conte nosso desenho
-        DrawPanel panel = new DrawPanel();
+        Exercicio41 panel = new Exercicio41();
 
         //cria um novo quadro para armazenar o painel
         JFrame application = new JFrame();
