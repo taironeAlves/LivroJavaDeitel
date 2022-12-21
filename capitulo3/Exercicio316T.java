@@ -7,7 +7,7 @@ public class Exercicio316T {
 
         System.out.println(pessoa.frequenciaAlvo());
 
-        System.out.printf("%nSua frequencia cardiaca maxima e %s batimentos por minuto.", pessoa.frequenciaMaxima());
+        System.out.printf("%nSua frequencia cardiaca maxima e %s batimentos por minuto.%n", pessoa.frequenciaMaxima());
         
     }
 }
