@@ -7,11 +7,11 @@ public class DrawPanelTest {
         //cria um novo quadro para armazenar o painel
         JFrame application = new JFrame();
 
-        //configura o fream para ser encerrado quando ele é fechado
+        //configura o frame para ser encerrado quando ele é fechado
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         application.add(panel);//adiciona o painel ao frame()
-        application.setSize(1000,1000); //configura o tamnaho do frame(janela)
+        application.setSize(1000,1000); //configura o tamnaho do frame(quadro de fotos)
         application.setVisible(true);//torna o frame visivel.
     }
 }

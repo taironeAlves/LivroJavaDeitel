@@ -13,7 +13,7 @@ public class DrawPanel extends JPanel {
 
         // Densenha uma linha a apartir do canto superior esquerdo até o inferior
         // direito
-        g.drawLine(0, 0, width, height);
+        g.drawLine(100, 0, width, height);
 
         // Desenha uma linha a partir do canto inferior esquerdo até o superior direito.
         g.drawLine(0, height, width, 0);
