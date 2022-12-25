@@ -8,16 +8,35 @@ public class Exercicio41 extends JPanel {
         // Chama paintCompone para assegurar que o painel e exibido corretamente
         super.paintComponent(g);
         
-        
         int altura = getHeight();
-        int passos = 0;
+        int width = getWidth();
+        
+        int contador = 0;
+        int larguraDividida = width / 15;
+        int alturaDividida = altura / 15;
+        int totalAltura = 0;
+        int totalLargura = 0;
+        
+        System.out.println(larguraDividida);
+        System.out.println(altura); 
+        while (contador <= 15) {
+    
+            //Linhas esquerda-superior
+            g.drawLine(0, 0, totalLargura, (altura - totalAltura));
+       
+            //Linhas direita-superior
+            g.drawLine(width, 0, totalLargura, totalAltura); 
+           
+            //Linhas inferior-esquerda
+            g.drawLine(0, altura, totalLargura, totalAltura); 
+
+            //Linhas inferior-direita
+            g.drawLine(width, altura ,totalLargura, (altura - totalAltura)); 
+
+            totalLargura += larguraDividida ;
+            totalAltura += alturaDividida ;
+            contador++;
             
-        while (altura - passos >= 0) {
-    
-            g.drawLine(0, 0, passos, altura - passos);
-            System.out.println(altura - passos);
-            passos = passos + 15;
-    
         }
 
     }
