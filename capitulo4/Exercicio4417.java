@@ -8,21 +8,33 @@ public class Exercicio4417 {
         Scanner input = new Scanner(System.in);
         Scanner input1 = new Scanner(System.in);
 
-        String valor = "q";
-        while(valor != "q"){
+        int valor = 0;
+        while(valor == 0){
 
-            System.out.println("Digite q para sair");
-            
+            System.out.println("Digite -1 para sair");
+
             System.out.println("Quanto KM foram pecorridos? ");
-            input.nextInt();
+            double s = input.nextInt();
+            kmPecorrido += s;
+
+            if(s == -1 || s == -1){
+                break;
+            } 
 
             System.out.println("Quantos litros foram abastecidos? ");
-            input1.nextInt();
-
-            if(input.nextInt() == "q" or input1.nextInt() == "q"){
-                
+            double z = input1.nextInt();
+            litrosGasolina += z;
+            
+            if(s == -1 || s == -1){
+                break;
             } 
+
+            double media = s / z;
+            
+            System.out.printf("O Consumo desta viagem foi %s Quilometros por Litro %n", media);
+            System.out.printf("Você ja percorreu %s quilometros e utilizou %s litros de gasolina %n", kmPecorrido, litrosGasolina);
 
         }
     }
 }
+

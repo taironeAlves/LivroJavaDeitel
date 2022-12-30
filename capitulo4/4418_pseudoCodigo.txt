@@ -1,0 +1,51 @@
+a)  Leia a declaração do problema.
+b)  Formule o algoritmo utilizando pseudocódigo e refinamento passo a passo de cima para baixo (top-down stepwise).
+c)  Escreva um programa Java.
+d)  Teste, depure e execute o programa Java.
+e)  Processe três conjuntos completos de dados.
+
+4.18 -> PseudoCodigo Resumido
+Programa determina se o cliente excedeu o limite de crédito
+
+4.18 -> PseudoCodigo Detalhado (v1)
+Classe Cliente
+    Atribua numeroDaConta como private do tipo int
+    Atribua saldoMes como private do tipo int
+    Atribua totalItensMes como private do tipo int
+    Atribua totalCreditoMes como private do tipo int
+    Atribua limiteCredito como private do tipo int
+
+    Inicialize o construtor com numeroDaConta, saldoMes, totalIntensMes, totalCreditoMes, LimiteCredito
+
+    crie as funções getters e setters dos atributos
+
+    crie função sem retorno novoSaldo com parametro despesa
+        Inizialize m recebe getSaldoMes com tipo int
+        Inicialize n recebe m + despesas com tipo int
+
+        se n for maior que getLimiteCredito
+            imprima "Limite de crédito excedido"
+        se não
+            imprima "Este é o seu novo saldo n"
+            setSaldoMes parametro n
+
+Fim Classe Cliente
+
+Classe ClienteTest
+    importe a biblioteca Scanner
+
+    Estancie z como Objeto da Classe Cliente
+    
+    Inicialize b com tipo Scanner parametro System.in
+    
+    Leia "Qual o valor da compra? "
+
+    c recebe b.nextInt
+
+    z.novoSaldo recebe c como parametro.
+
+
+
+
+
+
