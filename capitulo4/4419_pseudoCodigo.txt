@@ -1,0 +1,66 @@
+a)  Leia a declaração do problema.
+b)  Formule o algoritmo utilizando pseudocódigo e refinamento passo a passo de cima para baixo (top-down stepwise).
+c)  Escreva um programa Java.
+d)  Teste, depure e execute o programa Java.
+e)  Processe três conjuntos completos de dados.
+
+4.19 -> pseudocódigo Resumido
+Programa mostra o valor de recebimento semanal dos vendedores com base na comissão de 9% sobre as vendas.
+
+comissão 9% das vendas por semana
+Recebe $200 por semana
+digitar itens vendidos / vendedores
+calcular
+exibir rendimentos do vendedor.
+
+
+4.19 -> pseudocódigo Detalhado
+Classe Vendas 
+    atribua private String a vendedor
+    atribua private double a salarioSemanal recebe 200
+    atribua private double a totalVendas
+    
+    crie um construtor com os argumentos vendedor
+
+    crie função double adicionarVendas com parametro  double venda
+        totalVendas recebe totalVendas + venda
+
+    crie função double comissao com argumento totalVendas
+        Inicialize m com 0,9 tipo double
+        valorReceber recebe (totalVendas vezes m tipo double) + getSalarioSemanal
+
+        retorne valorReceber
+    
+Fim Classe Vendas
+
+Classe VendasTeste
+    importe biblioteca Scanner
+
+    inicialize m com valor zero tipo int
+
+    Instancie Scanner s com parametro System.in
+
+    leia "Qual nome do Vendedor? "
+    Inicialize b recebe s.nextLine
+
+    Instancie Vendas em f com parametro b
+
+    enquanto m for igual a zero
+        imprima "digite -1 para sair"
+        imprima "Qual valor da venda? "
+        s.nextDouble
+            se s.nextDouble for igual a -1
+                pare
+            se não 
+                f.adicionarVendas parametro s.nextDouble
+
+    imprima "f você irá receber esta semana a quantia de R$ f.totalVendas"
+
+Fim Classe VendasTeste
+
+
+
+
+
+
+
