@@ -25,7 +25,7 @@ Classe Vendas
     crie função double adicionarVendas com parametro  double venda
         totalVendas recebe totalVendas + venda
 
-    crie função double comissao com argumento totalVendas
+    crie função double comissao 
         Inicialize m com 0,9 tipo double
         valorReceber recebe (totalVendas vezes m tipo double) + getSalarioSemanal
 
