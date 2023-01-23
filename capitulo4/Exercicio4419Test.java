@@ -23,7 +23,7 @@ public class Exercicio4419Test {
                 f.adiconarVendas(g);
             }
         }
-        system.out.printf("%s vocẽ irá receber esta semana a quantia de R$ %s")
+        // system.out.printf("%s vocẽ irá receber esta semana a quantia de R$ %s");
 
     }
 }
