@@ -11,7 +11,9 @@ public class DrawPanelTest {
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         application.add(panel);//adiciona o painel ao frame()
-<<<<<<< HEAD
+
+        
+                                        
         application.setSize(1000,1000); //configura o tamnaho do frame(quadro de fotos)
 =======
         application.setSize(1000,1000); //configura o tamnaho do frame(janela)
